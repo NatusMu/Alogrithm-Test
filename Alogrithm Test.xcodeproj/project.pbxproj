@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDD457B11D93C0A500FCA724 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDD457B01D93C0A500FCA724 /* main.cpp */; };
+		FDD457B91D93C0D100FCA724 /* Alogrithm Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDD457B71D93C0D100FCA724 /* Alogrithm Test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		FDD457AD1D93C0A500FCA724 /* Alogrithm Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Alogrithm Test"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDD457B01D93C0A500FCA724 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FDD457B71D93C0D100FCA724 /* Alogrithm Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Alogrithm Test.cpp"; sourceTree = "<group>"; };
+		FDD457B81D93C0D100FCA724 /* Alogrithm Test.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "Alogrithm Test.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		FDD457AF1D93C0A500FCA724 /* Alogrithm Test */ = {
 			isa = PBXGroup;
 			children = (
-				FDD457B01D93C0A500FCA724 /* main.cpp */,
+				FDD457B81D93C0D100FCA724 /* Alogrithm Test.hpp */,
+				FDD457B71D93C0D100FCA724 /* Alogrithm Test.cpp */,
 			);
 			path = "Alogrithm Test";
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD457B11D93C0A500FCA724 /* main.cpp in Sources */,
+				FDD457B91D93C0D100FCA724 /* Alogrithm Test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
